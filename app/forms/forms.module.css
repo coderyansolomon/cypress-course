@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
