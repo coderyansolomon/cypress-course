@@ -7,7 +7,7 @@ import styles from './forms.module.css'
 const items = [
     {
       summary: 'Step 1) Get Form',
-      details: `First, we need to get the form.`,
+      details: `First, we need to get the form`,
       id: '1',
     },
     {

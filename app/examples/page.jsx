@@ -4,7 +4,7 @@ import styles from './examples.module.css'
 
 const items = [
   {
-    summary: 'Example 1) Multi-page Testing',
+    summary: 'Example 1) Multi-page testing',
     details: `You can quite easily write tests across pages to better test
     entire user workflows. You can click on navigation buttons or use cy.visit().
     You can also use cy.location("pathname").should("equal", "/some-path") to assert 
