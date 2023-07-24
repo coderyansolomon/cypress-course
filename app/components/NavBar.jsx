@@ -18,9 +18,17 @@ const navItems = [
         path: '/forms'
     },
     {
+        label: 'Examples',
+        path: '/examples' 
+    },
+    {
+        label: 'Component',
+        path: '/component' 
+    },
+    {
         label: 'Best Practices',
         path: '/best-practices'
-    }
+    },
 ]
 
 export default function NavBar(){

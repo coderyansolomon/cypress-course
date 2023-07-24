@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .postButton {
+    margin-top: 20px;
+  }
+
+  .postButton  button {
+    background-color: white;
+  }

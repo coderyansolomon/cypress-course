@@ -23,7 +23,8 @@ const items = [
         You can use these commands on the cy object.
         For example, cy.visit('/') will navigate the cypress runner to your home page.
         You have various other commands like cy.click(), cy.type(), cy.check(), etc. *docs
-        NOTE: You must have your dev server running for Cypress to work.`,
+        NOTE: You must have your dev server running for Cypress to work.
+        NOTE: Cypress has an async nature *docs`,
         id: '3',
       },
       {

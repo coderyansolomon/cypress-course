@@ -4,7 +4,7 @@ import styles from './page.module.css'
 const reasonsCypressIsGreat = [
   {
     summary: 'Reason 1',
-    details: 'An all-in-one testing framework, assertion library, with mocking and stubbing.',
+    details: 'An all-in-one testing framework, assertion library, with mocking and stubbing',
     id: '1'
   },
   {
