@@ -62,12 +62,6 @@ const items = [
         proceeding until an explicit condition is met. *docs`,
         id: '8',
     },
-    {
-        summary: 'Best Practice #9) Using arbitrary cy.wait()',
-        details: `Use route aliases or assertions to guard Cypress from 
-        proceeding until an explicit condition is met. *docs`,
-        id: '9',
-    },
 ]
 
 export default function BestPracticesPage(){

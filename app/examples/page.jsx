@@ -1,6 +1,7 @@
 import ItemsAccordion from '../components/Accordion'
 import PostButton from '../components/PostButton'
 import styles from './examples.module.css'
+import GrudgeList from '../components/GrudgeList'
 
 const items = [
   {
@@ -24,6 +25,11 @@ const items = [
     cy.within() -- *docs`,
     id: '3',
   },
+  {
+    summary: 'Example 4) Grudge list',
+    details: `Let's test some actual state changes`,
+    id: '4',
+  },
 ]
 
 export default function ExamplesPage(){ 
@@ -36,6 +42,7 @@ export default function ExamplesPage(){
             <div className={styles.postButton}>
             <PostButton className={styles.postButton} />
             </div>
+            <GrudgeList />
         </main>
     )
 }
