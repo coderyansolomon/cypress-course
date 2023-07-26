@@ -68,7 +68,7 @@ export default function BestPracticesPage(){
     return (
         <main className={styles.main}>
             <h1 className={styles.header}>
-                Best Practices (recommened by Cypress)
+                Best Practices (recommended by Cypress)
             </h1>
             <ItemsAccordion items={items} />
         </main>
